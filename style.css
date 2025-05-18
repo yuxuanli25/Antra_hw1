@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -55,3 +56,12 @@ button:hover {
     background-color: #00990f;
 }
 
+.checkbox-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
